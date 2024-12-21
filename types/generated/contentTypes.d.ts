@@ -403,6 +403,7 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
 export interface ApiSliderSlider extends Struct.CollectionTypeSchema {
   collectionName: 'sliders';
   info: {
+    description: '';
     displayName: 'Slider';
     pluralName: 'sliders';
     singularName: 'slider';
